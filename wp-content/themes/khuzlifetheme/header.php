@@ -7,6 +7,9 @@
 </head>
 
 <body class="text-center">
+    <div class="top-banner">
+      <p class="banner-text">Data Science/Analytics posts are coming to this site! Rebranding coming soon...  🔥</p>
+    </div>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"></div>
         <header class="masthead mb-auto">
         <div class="inner">
@@ -31,7 +34,7 @@
                 } else {
                     echo "text-muted";
                 }
-                ?>" 
+                ?>"
                 href=<?php echo site_url('/Blog')?>>✏️ Blog</a>
           </nav>
         </div>

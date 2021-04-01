@@ -4,6 +4,24 @@ Author: Jason Khu
 Version: 1.0
 */
 
+.top-banner{
+    background-color: #d9e2ef;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.banner-text{
+    margin: 0;
+}
+
+/* blog post css */
+figcaption{
+    font-size: 12px; 
+    color: grey;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
 body{
     line-height: 2;
 }
