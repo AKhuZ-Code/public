@@ -28,24 +28,6 @@ body{
     background-size: 100% 100%; /* Resize the background image to cover the entire container */
 }
 
-@media (min-width: 991px){
-  .nav-item:not(:last-child){
-      border-right: 1px solid rgba(0,0,0,0.2);
-  }
-}
-
-@media (max-width: 990px){
-  .nav-item{
-      text-align: left;
-  }
-}
-
-@media (min-width: 768px){
-  .left-align {
-    text-align: left;
-  }
-}
-
 .btn {
   border-radius: 25px;
   width: 150px;
@@ -58,18 +40,6 @@ body{
 
 .btn-line{
   text-align:center;
-}
-
-@media (min-width: 575px){
-  .btn-line:not(:first-child){
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 575px){
-  .btn-not-last{
-    margin-bottom: 40px;
-  }
 }
 
 button i {
@@ -204,4 +174,34 @@ figcaption{
     color: grey;
     text-align: center;
     margin-bottom: 1em;
+}
+
+@media (min-width: 575px){
+  .btn-line:not(:first-child){
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px){
+  .left-align {
+    text-align: left;
+  }
+}
+
+@media (min-width: 991px){
+  .nav-item:not(:last-child){
+      border-right: 1px solid rgba(0,0,0,0.2);
+  }
+}
+
+@media (max-width: 575px){
+  .btn-not-last{
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 990px){
+  .nav-item{
+      text-align: left;
+  }
 }
