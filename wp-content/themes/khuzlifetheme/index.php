@@ -2,7 +2,7 @@
 
 <div class="container content-page">
 
-  <h2 class="heading1">MY POSTS</h2>
+  <h2 class="heading2">My Posts</h2>
 
     <section>
     <div class="row">
@@ -17,7 +17,7 @@
                     <a class="text-dark" href=<?php the_permalink()?>><?php the_title() ?></a>
                 </h4>
                 <div class="mb-1 text-muted"><?php the_date() ?></div>
-                  <p class="card-text"><?php 
+                  <p class="card-text"><?php
                         if (get_the_excerpt()) {
                           echo get_the_excerpt();
                         } else {
