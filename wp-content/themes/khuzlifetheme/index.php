@@ -2,7 +2,7 @@
 
 <div class="container content-page">
 
-  <h2 class="heading2">My Posts</h2>
+  <h2 class="heading2">Blog</h2>
 
     <section>
     <div class="row">

@@ -18,7 +18,7 @@
         <header class="masthead mb-auto">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
               <div class="container">
-                <h1><a class="navbar-brand" href=<?php echo site_url()?>>J S N K H .</a></h1>
+                <a href="/"><img class="logo-img" src=<?php echo get_theme_file_uri('/img/2.png')?> alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,24 +30,18 @@
                           echo "text-muted";
                       }
                       ?>" href=<?php echo site_url()?> >HOME</a>
-                    <a class="nav-item nav-link <?php if(get_the_title() == 'About Me'){
+                    <a class="nav-item nav-link <?php if(get_the_title() == 'About'){
                           echo "text-dark current-item";
                       } else {
                           echo "text-muted";
                       }
-                      ?>" href=<?php echo site_url('/About-Me')?> >ABOUT ME</a>
+                      ?>" href=<?php echo site_url('/About')?> >ABOUT</a>
                     <a class="nav-item nav-link <?php if(get_post_type() == 'post'){
                           echo "text-dark current-item";
                       } else {
                           echo "text-muted";
                       }
                       ?>" href=<?php echo site_url('/Blog')?>>BLOG</a>
-                    <a class="nav-item nav-link <?php if(get_the_title() == 'Graphics'){
-                          echo "text-dark current-item";
-                      } else {
-                          echo "text-muted";
-                      }
-                      ?>" href=<?php echo site_url('/Graphics')?>>GRAPHICS</a>
                   </div>
                 </div>
               </div>

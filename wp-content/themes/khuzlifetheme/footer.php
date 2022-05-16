@@ -2,6 +2,12 @@
         <footer class="mastfoot mt-auto bg-white">
             <div class="container">
                 <p id="footer-top-line">
+                  <a target="_blank" rel="noopener noreferrer" class="footer-link" href="https://github.com/AKhuZ-Code">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a target="_blank" rel="noopener noreferrer" class="footer-link" href="https://public.tableau.com/app/profile/jason.khu8035#!/?newProfile=&activeTab=0">
+                    <i class="bi bi-bar-chart-line-fill"></i>
+                  </a>
                     <a target="_blank" rel="noopener noreferrer" class="footer-link" href="https://www.linkedin.com/in/oasaas-jasonkhu/"><i class="bi bi-linkedin"></i></a>
                     <a target="_blank" rel="noopener noreferrer" class="footer-link" href="https://twitter.com/JasonKhu2"><i class="bi bi-twitter"></i></a>
                 </p>

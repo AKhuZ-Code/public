@@ -16,6 +16,19 @@
             <p><?php the_content()?></p>
             <?php } ?>
         </div>
+        <div class="col-md-4">
+          <div class="card" style="width: auto;">
+            <img class="card-img-top" src=<?php echo get_theme_file_uri('/img/virtualbooth-3.jpg')?> alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">About the author</h5>
+              <p class="card-text"><strong>Jason Khu</strong> is the creater of Data & Development
+                Deep Dives and is a current student at the University of New South Wales.</p>
+            </div>
+            <div class="card-body">
+              <a href=<?php echo site_url('/About-Me')?> class="card-link">Read more</a>
+            </div>
+          </div>
+        </div>
     </div>
 </div>
 

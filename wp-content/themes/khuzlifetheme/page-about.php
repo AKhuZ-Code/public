@@ -1,26 +1,42 @@
 <?php get_header() ?>
 
 <div class="container content-page">
-    <h2 class="heading2">About Me</h2>
+    <h2 class="heading2">About</h2>
     <div class="row">
       <div class="col-md-8 col-xs-12">
-      <p>Hello there! I'm <strong>Jason Khu</strong>.
+      <p>Hi! I'm Jason Khu.
       </p>
-      <p>💻 I am currently studying a Bachelor of Actuarial Studies (majoring in Quantitative Data Science)
-        and a Bachelor of Commerce (majoring in Information Systems)</p>
-      <p>📚 I have an avid interest in all things data, all things web and app-related,
-        and all things about learning and self-development</p>
-      <p>📓 And I blog sometimes! I write about data analytics, data science, personal development,
-      and my Student experience.</p>
+      <p>I started Data & Development Deep Dives (jason-khu.com) as a personal
+        blog, where I wrote about personal/professional development and data
+        analytics/science. After going live on February 2021, I started publishing
+        around one post a month - writing about Tableau, my University experience, and my
+        internship experiences - and I plan to publish more regularly and diversify
+        my content. </p>
+      <p><strong>About Me</strong></p>
+      <p>I am currently studying a Bachelor of Actuarial Studies and Commerce
+        (majoring in Quantitative Data Science and Information Systems) at the
+        University of New South Wales (UNSW). Through my studies, I got the
+        opportunity to gain experience with data analytics at American Express
+        and Deloitte, and I got to run 10 events as a Tableau Student Ambassador. </p>
+        <p>I enjoy designing and building websites, reading books and learning a new skill.</p>
+        <p>See my code-based and data visualisation projects on
+          <a href="https://github.com/AKhuZ-Code">Github</a>
+          and
+          <a href="https://public.tableau.com/app/profile/jason.khu8035#!/?newProfile=&activeTab=0">Tableau Public</a>.
+        </p>
+        <p>Get in touch with me on
+          <a href="https://www.linkedin.com/in/oasaas-jasonkhu/">LinkedIn</a>
+          and
+          <a href="https://twitter.com/JasonKhu2">Twitter</a>.
       </div>
         <div class="col-md-4 col-xs-12 img-center">
             <img class="profile_img" src=<?php echo get_theme_file_uri('/img/virtualbooth-3.jpg')?> alt="jason">
         </div>
     </div>
 
-    <h2 class="heading2">Connect With Me</h2>
+    <!-- <h2 class="heading2">Connect With Me</h2> -->
 
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-sm">
         <div class="btn-line btn-not-last">
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/oasaas-jasonkhu/">
@@ -41,7 +57,7 @@
           <button type="button" class="btn btn-outline-dark btn-social disabled"><i class="bi bi-instagram"></i>INSTAGRAM</button>
         </div>
       </div>
-    </div>
+    </div> -->
 
         <!-- <h2 class="heading2">MY TOP BOOKS (ALL TIME)</h2>
     <div class="row">

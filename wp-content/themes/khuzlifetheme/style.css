@@ -9,6 +9,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.logo-img{
+  height: 50px;
+  width: auto;
+}
+
 .nav-item {
   width: 120px;
 }
@@ -20,7 +25,7 @@ body{
 .hero-image {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(img/Website-Art.png); /* The image used */
+    background-image: url(img/Website-Art-2.png); /* The image used */
     background-color: rgba(0,0,0,0.4); /* Used if the image is unavailable */
      /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -58,7 +63,7 @@ button i {
 }
 
 .titleimage{
-  background-image: url(img/Website-Art-Inverted.png); /* The image used */
+  background-image: url(img/Website-Art-Inverted-2.png); /* The image used */
   background-color: rgba(0,0,0,0.4); /* Used if the image is unavailable */
    /* You must set a specified height */
   background-position: center; /* Center the image */

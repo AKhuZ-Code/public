@@ -10,18 +10,22 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 left-align">
-              <h1 intro-text>Hi, I'm <strong>Jason Khu</strong>!</h1>
-              <h4>Actuarial & Commerce Student @ UNSW</h4>
-              <p>Data Analytics - Data Science - Data Visualisation - Web Development - Web Design - WordPress Development</p>
-              <p>See my work:
+
+              <!-- <h1 intro-text>Hi, I'm <strong>Jason Khu</strong>!</h1> -->
+              <h4>Hi. Welcome to...</h4>
+              <h1><b>Data & Development Deep Dives</b></h1>
+              <h4>with <b>Jason Khu</b></h4>
+              <p>I help students develop themselves personally and professionally,
+                and build their career in data analytics.</p>
+              <!-- <p>See my work:
                 <a target="_blank" rel="noopener noreferrer" class="footer-link" href="https://github.com/AKhuZ-Code">
                   <i class="bi bi-github i-spaced"></i>
                 </a>
                 <a target="_blank" rel="noopener noreferrer" class="footer-link" href="https://public.tableau.com/app/profile/jason.khu8035#!/?newProfile=&activeTab=0">
                   <i class="bi bi-bar-chart-line-fill"></i>
                 </a>
-              </p>
-              <a href=<?php echo site_url('/About-Me')?>>
+              </p> -->
+              <a href=<?php echo site_url('/About')?>>
                 <button type="button" class="btn btn-outline-dark">LEARN MORE</button>
               </a>
               <a href=<?php echo site_url('/Blog')?>>
@@ -34,7 +38,7 @@
         </div>
 </main>
 
-<h2 class="heading2 titleimage">My Latest Blog Posts</h2>
+<h2 class="heading2 titleimage">Latest Blog Posts</h2>
 
 <div class="container front-page">
   <div class="row">
