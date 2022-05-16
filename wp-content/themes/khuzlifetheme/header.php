@@ -3,6 +3,10 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="R, R Programming, SQL, Statistics, Python, Tableau,
+    Data Analytics, Data Science, Personal Development, Professional Development,
+    UNSW, University of New South Wales, Jason, Jason Khu">
+    <meta name="description" content="At Data & Development Deep Dives, I help students develop themselves personally and professionally, and build their career in data analytics.">
     <?php wp_head() ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
